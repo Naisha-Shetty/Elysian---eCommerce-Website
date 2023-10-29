@@ -1,0 +1,14 @@
+#form-details form .form-group{
+    width:100%;
+}
+#success-message{
+    display: none; 
+    color: #264653;
+    font-style: italic;
+    font-weight:bold;
+    margin-top:30px;
+}
+input[type="text"], input[type="email"], textarea {
+    min-width: 100%;
+    max-width: 100%;
+}

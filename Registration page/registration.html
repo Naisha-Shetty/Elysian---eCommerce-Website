@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Elysian</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <form id="registration-form" action="register.php" method="post" onsubmit="return validateForm()">  
+            <h3 class="title">REGISTER</h3>
+            <input type="text" placeholder="Enter Name" name="name" id="name" class="box">
+            <input type="email" placeholder="Enter Email" name="email" id="email" class="box">
+            <input type="tel" placeholder="Enter Mobile Number" name="phone" id="phone" class="box">
+            <input type="password" placeholder="Enter Password" name="password" id="password" class="box">
+            <input type="password" placeholder="Confirm Password" name="cpassword" id="cpassword" class="box">
+            <div class="error-message" id="error-message"></div>
+            <input type="submit" value="Register Now" class="form-btn" name="submit">
+            <p>Already a member? <a href="..\Login Page\login.html">Login Now!</a></p>
+        </form>
+    </div>
+</body>
+</html>
